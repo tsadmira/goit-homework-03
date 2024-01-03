@@ -42,8 +42,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 25.5px;
-  padding-left: 156px;
+  padding: 25.5px 0;
   margin-right: 76px;
 }
 .logo-header span {
@@ -110,11 +109,12 @@ img {
 
 .main-page {
   background-color: #2e2f42;
-  padding: 188px 472px;
+
 }
 .container-main{
     display: flex;
     flex-direction: column;
+    padding: 188px 0;
 }
 .title-main {
   text-align: center;
@@ -127,9 +127,7 @@ img {
   width: 496px;
 }
 .main-button {
-  display: block;
-  min-width: 169px; 
-  height: 56px;
+  display: inline-flex;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -141,7 +139,6 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  flex-shrink: 1;
 }
 .main-button:hover {
   background-color: #404bbf;
@@ -149,7 +146,8 @@ img {
 .main-button:focus {
   background-color: #404bbf;
 }
-.mini-section {
+.container-mini-section{
+    padding: 120px 0;
 }
 .list-section-one {
   display: flex;
@@ -179,6 +177,9 @@ img {
 /******************* SECTION TWO ******************/
 .section-two {
   background: #f4f4fd;
+}
+.container-item{
+    padding: 120px 0;
 }
 .title-second {
   color: #2e2f42;
