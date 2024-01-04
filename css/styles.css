@@ -74,7 +74,6 @@ a {
   letter-spacing: 0.32px;
   list-style-type: none;
   text-decoration: none;
-  padding: 24px 0; 
 }
 .header-menu-list {
   color: #2e2f42;
@@ -82,6 +81,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0; 
 }
 .header-menu-list:hover {
   color: #404bbf;
