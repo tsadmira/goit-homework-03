@@ -95,8 +95,7 @@ a {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding-right: 156px;
-  padding-top: 24px;
+  padding: 24px 0;
 }
 .list-header-address-item {
 }
@@ -272,17 +271,14 @@ a {
 .list-section-three {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
   justify-content: center;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .list-item-section-three {
-  padding-bottom: 32px;
   list-style-type: none;
   flex-shrink: 0;
-  background: #fff;
   width: calc((100% - 48px) / 3);
 }
 .inform-section-three {
@@ -314,8 +310,6 @@ a {
   padding: 100px 0;
   margin: auto;
 }
-.container {
-}
 .logo-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -327,7 +321,6 @@ a {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 145px;
 }
 .span-logo {
   color: #f4f4fd;
@@ -343,5 +336,4 @@ a {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-left: 145px;
 }
